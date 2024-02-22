@@ -69,9 +69,33 @@ public class Bai4 {
             double x = -b / a;
             System.out.printf("Nghiệm của phương trình: x = %.2f\n", x);
         }
+    }
+    
+    public static void giaiPTB2() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Giai Pt ax^2 + bx + c = 0");
+        System.out.print("Nhập hệ số a: ");
+        double a = scanner.nextDouble();
+        System.out.print("Nhập hệ số b: ");
+        double b = scanner.nextDouble();
+        System.out.print("Nhập hệ số c: ");
+        double c = scanner.nextDouble();
+        
+        double delta = b * b - 4 * a * c;
+        
+        if (delta < 0) {
+            System.out.println("Phương trình vô nghiệm.");
+        } else if (delta == 0) {
+            double x = -b / (2 * a);
+            System.out.printf("Nghiệm kép của phương trình: x = %.2f\n", x);
+        } else {
+            double x1 = (-b + Math.sqrt(delta)) / (2 * a);
+            double x2 = (-b - Math.sqrt(delta)) / (2 * a);
+            System.out.printf("Nghiệm phân biệt của phương trình: x1 = %.2f, x2 = %.2f\n", x1, x2);
+        }
     
     
-    
+ 
 
 	}
 
