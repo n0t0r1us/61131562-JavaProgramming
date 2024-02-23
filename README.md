@@ -1,3 +1,5 @@
+<div align="center"> 
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=A020F0&center=true&vCenter=true&random=false&width=435&lines=%F0%9F%91%BDHi+I'm+Dinh+Du%F0%9F%91%BD;%F0%9F%92%80I'm+Not+A+Programmer%F0%9F%92%80" alt="Typing SVG" /></a>
 <div align="center">
   <img height="269" src="https://steamuserimages-a.akamaihd.net/ugc/170412021733266950/1CD0513C34E143D362389DD0D9F2CC0B3BBB2123/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"  />
 </div>
