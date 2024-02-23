@@ -1,5 +1,5 @@
 <div align="center">
-  <img height="169" src="https://steamuserimages-a.akamaihd.net/ugc/170412021733266950/1CD0513C34E143D362389DD0D9F2CC0B3BBB2123/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"  />
+  <img height="269" src="https://steamuserimages-a.akamaihd.net/ugc/170412021733266950/1CD0513C34E143D362389DD0D9F2CC0B3BBB2123/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"  />
 </div>
 
 ###
@@ -107,10 +107,6 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=n0t0r1us&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=midnight-purple&hide_border=false&order=2" height="150" alt="languages graph"  />
   <img src="https://streak-stats.demolab.com?user=n0t0r1us&locale=en&mode=daily&theme=midnight-purple&hide_border=false&border_radius=5&date_format=j/n%5B/Y%5D&order=3" height="220" alt="streak graph"  />
 </div>
-
-###
-
-<img src="https://raw.githubusercontent.com/n0t0r1us/n0t0r1us/output/snake.svg" alt="Snake animation" />
 
 ###
 
