@@ -19,9 +19,21 @@ public class Main {
 		//Tạo 1 nút bấm
 		JButton btnOK = new JButton("Click me!");
 		//Tạo tai nghe
-		BoLangNgheOK ok = new BoLangNgheOK();
-		btnOK.addActionListener(ok);
-		JButton btnK = new JButton("Click me bitch!");
+		//BoLangNgheOK ok = new BoLangNgheOK();
+		btnOK.addActionListener( new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				JDialog dialog = new JDialog();
+				dialog.setTitle("Thông báo gì đó");
+				dialog.setSize(220,120);
+				dialog.show();
+				
+			}
+		});
+				
+		JButton btnK = new JButton("Click me more!");
 		//gắn lên form
 		f.add(btnOK);
 		
@@ -30,17 +42,17 @@ public class Main {
 		f.show(); //Hiện cửa sổ
 	}
 	//Tạo bộ lắng nghe (hữu danh) và xử lý cho nút OK
-	private static class BoLangNgheOK implements ActionListener{
-
-		@Override
-		public void actionPerformed(ActionEvent e) {
-			// mã xử lý khi user click chuột ở đây
-			JDialog dialog = new JDialog();
-			dialog.setTitle("Thông báo gì đó");
-			dialog.setSize(220,120);
-			dialog.show();
-		}
-		
-	}
+//	private static class BoLangNgheOK implements ActionListener{
+//
+//		@Override
+//		public void actionPerformed(ActionEvent e) {
+//			// mã xử lý khi user click chuột ở đây
+//			JDialog dialog = new JDialog();
+//			dialog.setTitle("Thông báo gì đó");
+//			dialog.setSize(220,120);
+//			dialog.show();
+//		}
+//		
+//	}
 
 }
