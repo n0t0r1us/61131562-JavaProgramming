@@ -129,9 +129,9 @@ public class ManHinhTinhToan extends JFrame {
 				double soA = Double.parseDouble(str_soA);
 				double soB = Double.parseDouble(str_soB);
 				//Tính toán
-				double tong = soA-soB;
+				double hieu = soA-soB;
 				//Đưa ra hiển thị lên điều khiển
-				txtKetQua.setText( String.valueOf(tong)  );
+				txtKetQua.setText( String.valueOf(hieu)  );
 		
 	}
 	void HamXuLyNhan() {
@@ -142,9 +142,9 @@ public class ManHinhTinhToan extends JFrame {
 				double soA = Double.parseDouble(str_soA);
 				double soB = Double.parseDouble(str_soB);
 				//Tính toán
-				double tong = soA*soB;
+				double tich = soA*soB;
 				//Đưa ra hiển thị lên điều khiển
-				txtKetQua.setText( String.valueOf(tong)  );
+				txtKetQua.setText( String.valueOf(tich)  );
 	}
 	void HamXuLyChia() {
 		//Lấy dữ liệu từ điều khiển
@@ -153,9 +153,13 @@ public class ManHinhTinhToan extends JFrame {
 				//Chuyển kiểu
 				double soA = Double.parseDouble(str_soA);
 				double soB = Double.parseDouble(str_soB);
+				if (soB != 0) {
 				//Tính toán
-				double tong = soA/soB;
+				double thuong = soA/soB;
 				//Đưa ra hiển thị lên điều khiển
-				txtKetQua.setText( String.valueOf(tong)  );
+				txtKetQua.setText( String.valueOf(thuong)  );
+	} else {
+		txtKetQua.setText("Không chia được cho 0");
 	}
+}
 }
