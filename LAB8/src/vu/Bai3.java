@@ -40,7 +40,7 @@ public class Bai3 {
     }
 
     public static void main(String[] args) {
-        String ten = toUpperFirstChar(" nguyen  van  nam");
+        String ten = toUpperFirstChar(" nguyen van teo");
         System.out.println(ten);
 
 
