@@ -1,10 +1,17 @@
 package Bai4;
 
-public class SinhVienBiz {
+public class SinhVienBiz extends SinhVienPoly {
+    protected double diemMarketting;
+    protected double diemSales;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+    public SinhVienBiz(String hoTen, String nganh, double diemMarketting, double diemSales) {
+        super(hoTen, nganh);
+        this.diemMarketting = diemMarketting;
+        this.diemSales = diemSales;
+    }
 
-	}
-
+    @Override
+    double getDiem() {
+        return (2 * diemMarketting + diemSales) / 3;
+    }
 }
